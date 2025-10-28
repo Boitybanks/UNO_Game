@@ -51,8 +51,9 @@ def dealing_cards():
         Computer_Hand.append(draw_card(UnoDeck))
         Human_Hand.append(draw_card(UnoDeck))
 
+dealing_cards()
 print("\n--- Starting Hands ---")
-# --- FIX: Corrected the hand names in the print statement ---
+# ---  ---
 print(f"Your Hand ({len(Human_Hand)} cards): {Human_Hand}")
 print(f"Computer Hand ({len(Computer_Hand)} cards): {Computer_Hand}")
  
